@@ -1,0 +1,13 @@
+{
+  "name": "ts_design_patterns",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon -w ./src -e ts --exec 'npx tsc && cd dist && node index.js'"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "typescript": "^3.8.3"
+  }
+}
